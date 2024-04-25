@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
+/* :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
@@ -24,10 +24,32 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+} */
+
+body{
+  background-color: #000000;
 }
 
+@font-face {
+  font-family:NEXT-Poster-Bold;
+  src: url("/HQ FONT/NEXT otf/NEXT-Poster-Bold.otf");
+}
+
+@font-face {
+  font-family:NEXT-Book-Bold;
+  src: url("/HQ FONT/NEXT otf/NEXT-Book-Bold.otf");
+}
+@font-face {
+  font-family:NEXT-Book;
+  src: url("/HQ FONT/NEXT otf/NEXT-Book-Regular.otf");
+}
+@font-face {
+  font-family:neuemachina-regular;
+  src: url("/HQ FONT/neuemachina-regular.otf");
+}
+/* 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
-}
+} */
