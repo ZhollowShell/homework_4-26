@@ -71,7 +71,7 @@ const Moonshot = () => {
             <div className=" absolute flex flex-col justify-between top-0 left-0 z-10 w-[416px] h-[278px] bg-[url('/images/Group_481878.png')] bg-cover bg-center hover:translate-y-[-5px] hover:translate-x-[6px] duration-150 p-10 ">
                 <div className=" flex flex-col justify-between items-start">
                     <h3 className="text-[#EDEDED] font-[NEXT-Book-Bold] text-[16px] leading-[16px]">Moonshot 2023 Summer Hackathon</h3>
-                    <div className="mt-5">
+                    <div className="mt-5 flex space-x-[20px]">
                         <span className=" border border-[#676767] px-[8px] py-[4px] rounded-[20px] font-[NEXT-Book] text-white text-[9px] leading-[9.9px]">All Tracks</span>
                         <span className=" border border-[#676767] px-[8px] py-[4px] rounded-[20px] font-[NEXT-Book] text-white text-[9px] leading-[9.9px]">Solidity</span>
                         <span className=" border border-[#676767] px-[8px] py-[4px] rounded-[20px] font-[NEXT-Book] text-white text-[9px] leading-[9.9px]">ZK</span>
@@ -79,15 +79,15 @@ const Moonshot = () => {
                 </div>
 
                 <ul>
-                    <li className="flex mt-2 mb-1 justify-between items-center border-b border-[#282828]">
+                    <li className="flex mt-4 pb-2 justify-between items-center border-b border-[#282828]">
                         <span className=" text-[#676767] font-[NEXT-Book] text-[12px] leading-[13.2px]">Signup</span>
                         <span className=" text-[#EDEDED] text-[14px] leading-[14px] font-[neuemachina-regular]"  >4/15 - 6/15</span>
                     </li>
-                    <li className="flex mt-2 mb-1 justify-between items-center border-b border-[#282828]">
+                    <li className="flex mt-4 pb-2 justify-between items-center border-b border-[#282828]">
                         <span className=" text-[#676767] font-[NEXT-Book] text-[12px] leading-[13.2px]">Event</span>
                         <span className=" text-[#EDEDED] text-[14px] leading-[14px] font-[neuemachina-regular]" >6/15 - 7/15</span>
                     </li>
-                    <li className="flex mt-2 mb-1 justify-between items-center border-b border-[#282828]">
+                    <li className="flex mt-4 pb-2 justify-between items-center border-b border-[#282828]">
                         <span className=" text-[#676767] font-[NEXT-Book] text-[12px] leading-[13.2px]">Grant size</span>
                         <span className=" text-[#EDEDED] text-[14px] leading-[14px] font-[neuemachina-regular]"  >200K</span>
                     </li>
